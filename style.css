@@ -60,10 +60,14 @@ h1 {
   color: #fff;
   font-family: "Caveat", sans-serif;
   text-align: center;
-  padding: 1em;
+  padding: 0.5em;
   transform: rotate(-4deg) translateY(-15vh);
 }
-
+@media (max-width: 800px) {
+  h1 {
+    font-size: calc(1.5em + 4vw);
+  }
+}
 .mountains {
   position: absolute;
   bottom: 0;
@@ -84,8 +88,8 @@ h1 {
   z-index: 0;
 }
 .from {
-  margin-top: 550px;
-  margin-left: -200px;
+  margin-top: 500px;
+  margin-left: -180px;
 }
 h2 {
   font-size: 30px;
