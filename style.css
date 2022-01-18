@@ -7,6 +7,8 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .stars {
@@ -56,6 +58,7 @@ body {
   }
 }
 h1 {
+  position: absolute;
   font-size: calc(1.5em + 5vw);
   color: #fff;
   font-family: "Caveat", sans-serif;
@@ -87,13 +90,9 @@ h1 {
   fill: #9d5189;
   z-index: 0;
 }
-.from {
-  margin-top: 500px;
-  margin-left: -180px;
-}
 h2 {
+  margin-top: 30rem;
   font-size: 30px;
   color: #fff;
   font-family: "Caveat", sans-serif;
-  text-align: center;
 }
